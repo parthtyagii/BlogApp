@@ -1,10 +1,12 @@
 import './App.css';
-import Login from './pages/login';
+import Login from './pages/auth/login';
+import Registration from './pages/auth/register';
 
 function App() {
   return (
     <>
-      <Login />
+      {/* <Login /> */}
+      {/* <Registration /> */}
     </>
   );
 }
