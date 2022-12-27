@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.blog {
+    width: 25vw;
+    min-height: 20vh;
+    /* background-color: aqua; */
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    border:1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog img {
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blog-title {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.blog-about {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    word-spacing: 5px;
+    font-size: .7rem;
+    /* background-color:burlywood; */
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.blog-interaction {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: .7rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.blog-interaction button {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    font-size: .7rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-icons{
+    font-size: 20px;
+    color:red;
+    margin-left: 3px;
+    margin-right: 3px;
+    /* background-color: red; */
+}

@@ -1,0 +1,10 @@
+main {
+    width: 100%;
+    min-height: 77vh;
+    /* background-color: cadetblue; */
+    padding: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
