@@ -43,7 +43,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 10px;
 }
 
 .nav-pages ul li {
@@ -106,9 +105,9 @@ nav {
 .account-info ul {
     min-height: 30vh;
     width: 100%;
-    padding: 15px;
-    /* background-color: blueviolet; */
+    padding: 25px;
     list-style-type: none;
+    /* background-color: blueviolet; */
 
     display: flex;
     flex-direction: column;
@@ -117,7 +116,7 @@ nav {
 }
 
 .account-info ul li {
-    font-size: 1.2rem;
+    font-size: 1.rem
     /* background-color: red; */
     /* margin-top: 10px; */
 
