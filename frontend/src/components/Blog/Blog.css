@@ -5,9 +5,9 @@
     min-height: 20vh;
     /* background-color: aqua; */
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: 'Roboto', sans-serif;
-    border:1px solid black;
+    border: 1px solid black;
 
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: justify;
-    word-spacing: 5px;
+    word-spacing: 0px;
     font-size: .7rem;
     /* background-color:burlywood; */
 
@@ -66,16 +66,16 @@
     background-color: transparent;
     border: none;
     font-size: .7rem;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.blog-icons{
+.blog-icons {
     font-size: 20px;
-    color:red;
+    /* color: grey; */
+
     margin-left: 3px;
     margin-right: 3px;
-    /* background-color: red; */
 }

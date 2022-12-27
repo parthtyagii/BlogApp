@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoHeartOutline } from 'react-icons/io5';
+import { AiFillHeart } from 'react-icons/ai';
 import { AiOutlineComment } from 'react-icons/ai';
 import { GiSandsOfTime } from 'react-icons/gi';
 import './Blog.css';
@@ -18,7 +18,7 @@ export default function Blog() {
             <div className="blog-interaction">
                 <span><GiSandsOfTime /> December 27, 2022</span>
                 <button>
-                    <IoHeartOutline className='blog-icons' /> 123
+                    <AiFillHeart className='blog-icons' /> 123
                 </button>
                 <button>
                     <AiOutlineComment className='blog-icons' />123
