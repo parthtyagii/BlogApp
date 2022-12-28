@@ -7,7 +7,7 @@ import './Blog.css';
 export default function Blog() {
     return (
         <div className="blog">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD_kCrE0JwBLF54gd_-ooF8kM-Gk-nZrKIOw&usqp=CAU"
+            <img src="https://i.pinimg.com/originals/45/1f/65/451f65cd9bd4b8b855cca534dde6156f.jpg"
                 alt="image" />
             <div className="blog-title">Travel</div>
             <span className="blog-about">

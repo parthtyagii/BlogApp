@@ -5,13 +5,17 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Blog from './components/Blog/Blog';
 import BlogList from './components/BlogList/BlogList';
+import BlogPage from './pages/BlogPage/BlogPage';
+import CreateBlog from './components/CreateBlog/CreateBlog';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <BlogList />
-      <Footer />
+      <CreateBlog />
+      {/* <BlogPage /> */}
+      {/* <Navbar /> */}
+      {/* <BlogList /> */}
+      {/* <Footer /> */}
       {/* <Login /> */}
       {/* <Registration /> */}
 

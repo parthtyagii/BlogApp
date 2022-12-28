@@ -19,21 +19,23 @@ export default function Navbar() {
 
             <div className="nav-pages">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Create</a></li>
+                    <li><button>Home</button></li>
+                    <li><button>Create</button></li>
                 </ul>
             </div>
 
             <div className="nav-account">
-                <VscAccount id="account-logo" onClick={accountInfoHandler} />
+                <button>
+                    <VscAccount id="account-logo" onClick={accountInfoHandler} />
+                </button>
 
                 {showAccountInfo &&
                     <div className="account-info">
                         <ul>
-                            <li>My Blogs</li>
-                            <li>Published Blogs</li>
-                            <li>Un-Published Blogs</li>
-                            <li>Logout</li>
+                            <li><button>My Blogs</button></li>
+                            <li><button>Published Blogs</button></li>
+                            <li><button>Un-Published Blogs</button></li>
+                            <li><button>Logout</button></li>
                         </ul>
                     </div>
                 }

@@ -9,6 +9,11 @@ export default function BlogList() {
             <Blog />
             <Blog />
             <Blog />
+            <Blog />
+            <Blog />
+            <Blog />
+            <Blog />
+            <Blog />
         </main>
     );
 }
