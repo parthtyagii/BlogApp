@@ -3,13 +3,24 @@ import './Navbar.css';
 import { VscAccount } from 'react-icons/vsc';
 import { useState } from 'react';
 
-export default function Navbar() {
+export default function Navbar({ setShowHomepage, setShowCreateBlog }) {
 
     const [showAccountInfo, setShowAccountInfo] = useState(false);
 
     const accountInfoHandler = () => {
         setShowAccountInfo(!showAccountInfo);
     }
+
+    const homeHandler = () => {
+        setShowHomepage(true);
+        setShowCreateBlog(false);
+    }
+
+    const createHandler = () => {
+        setShowHomepage(false);
+        setShowCreateBlog(true);
+    }
+
 
     return (
         <nav>
@@ -19,8 +30,8 @@ export default function Navbar() {
 
             <div className="nav-pages">
                 <ul>
-                    <li><button>Home</button></li>
-                    <li><button>Create</button></li>
+                    <li><button onClick={() => homeHandler()}>Home</button></li>
+                    <li><button onClick={() => createHandler()}>Create</button></li>
                 </ul>
             </div>
 

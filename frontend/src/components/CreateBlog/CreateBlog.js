@@ -6,8 +6,6 @@ import Footer from '../Footer/Footer';
 export default function CreateBlog() {
     return (
         <>
-            <Navbar />
-
             <div className="createblog-container">
                 <div className="createblog">
                     <div>
@@ -25,8 +23,7 @@ export default function CreateBlog() {
                     </div>
                 </div>
             </div>
-
-            <Footer />
+            
         </>
     );
 }

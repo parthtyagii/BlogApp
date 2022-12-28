@@ -7,12 +7,15 @@ import Blog from './components/Blog/Blog';
 import BlogList from './components/BlogList/BlogList';
 import BlogPage from './components/BlogPage/BlogPage';
 import CreateBlog from './components/CreateBlog/CreateBlog';
+import Homepage from './pages/homepage/Homepage';
+
+
 
 function App() {
   return (
     <>
+      <Homepage />
       {/* <CreateBlog /> */}
-      <BlogPage />
       {/* <Navbar /> */}
       {/* <BlogList /> */}
       {/* <Footer /> */}
