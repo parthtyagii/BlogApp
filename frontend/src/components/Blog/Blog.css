@@ -9,6 +9,11 @@
     font-family: 'Roboto', sans-serif;
     border: 1px solid black;
 
+    box-shadow: 2px 2px 2px #EAEAEA,
+        -2px -2px 2px #EAEAEA,
+        2px -2px 2px #EAEAEA,
+        -2px 2px 2px #EAEAEA;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +57,7 @@
     height: auto;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: .7rem;
+    font-size: .8rem;
 
     display: flex;
     justify-content: flex-start;

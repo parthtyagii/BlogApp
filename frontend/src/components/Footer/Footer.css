@@ -24,7 +24,18 @@ footer {
     align-items: center;
 }
 
-#footer-github {
+.footer-container ul{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-icons {
     font-size: 20px;
     color:black;
+    margin-left: 5px;
+    margin-right: 5px;
 }
